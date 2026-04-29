@@ -1,0 +1,53 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Memory captures
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the asset itself is ignored
+!/[Aa]ssets/**/*.meta
+
+# Uncomment if you don't want to track meta files for packages
+#!/[Pp]ackages/**/*.meta
+
+# Visual Studio / Rider / VS Code
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+
+# Addressables / generated bundles if not source assets
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
